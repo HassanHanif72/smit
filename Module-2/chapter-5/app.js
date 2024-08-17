@@ -52,16 +52,30 @@ document.write("----------------------------------------------------------------
 // Question 5
 var tableNum = 10;
 var add = 1;
-add++;
 document.write("<h2>Table Of 100</h2>");
-document.write("10 * 1 = " + tableNum * --add + "<br>");
-document.write("10 * 2 = " + tableNum * ++add + "<br>");
-document.write("10 * 3 = " + tableNum * ++add + "<br>");
-document.write("10 * 4 = " + tableNum * ++add + "<br>");
-document.write("10 * 5 = " + tableNum * ++add + "<br>");
-document.write("10 * 6 = " + tableNum * ++add + "<br>");
-document.write("10 * 7 = " + tableNum * ++add + "<br>");
-document.write("10 * 8 = " + tableNum * ++add + "<br>");
-document.write("10 * 9 = " + tableNum * ++add + "<br>");
-document.write("10 * 10 = " + tableNum * ++add + "<br>");
+document.write("10 * " + add + " = " + tableNum * add + "<br>");
+document.write("10 * " + ++add + " = " + tableNum * add + "<br>");
+document.write("10 * " + ++add + " = " + tableNum * add + "<br>");
+document.write("10 * " + ++add + " = " + tableNum * add + "<br>");
+document.write("10 * " + ++add + " = " + tableNum * add + "<br>");
+document.write("10 * " + ++add + " = " + tableNum * add + "<br>");
+document.write("10 * " + ++add + " = " + tableNum * add + "<br>");
+document.write("10 * " + ++add + " = " + tableNum * add + "<br>");
+document.write("10 * " + ++add + " = " + tableNum * add + "<br>");
+document.write("10 * " + ++add + " = " + tableNum * add + "<br>");
+
+document.write("---------------------------------------------------------------------------<br>");
+
+// Question 6
+
+var C = 25;
+var F = (C * (9 / 5)) + 32;
+document.write(C + "°" + "C is " + F + "°" + "F" + "<br>");
+
+var F = 70;
+var C = (F - 32) * (5 / 9)
+document.write(F + "°" + "F is " + C + "°" + "C" + "<br>");
+
+
+
 
