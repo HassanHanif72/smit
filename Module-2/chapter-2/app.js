@@ -40,5 +40,5 @@ document.write("<br><br>" + displayMsg);
 function display() {
     var myName = "Hello, My Name is Hassan Hanif!";
     alert(myName);
-    document.getElementById("output").textContent = myName;
+    document.getElementById("output").innerHTML = myName;
 }
