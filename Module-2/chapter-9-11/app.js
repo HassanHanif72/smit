@@ -100,9 +100,9 @@ var totalNo = subject1 + subject2 + subject3
 var percentage = (totalNo * 100) / totalMarks;
 // alert(percentage);
 if (percentage >= 90) {
-    alert("Grade A");
+    alert("Grade A \n" + "Total Marks: " + totalMarks + "\nMarks Obtained: " + totalNo + "\nPercentage: " + percentage + "%" + "\nRemarks: Excellent");
 } else if (percentage >= 80) {
-    alert("Grade B");
+    alert("Grade B \n" + "Total Marks: " + totalMarks + "\nMarks Obtained: " + totalNo + "\nPercentage: " + percentage + "%" + "\nRemarks: Need To Improve");
 } else if (percentage >= 70) {
     alert("Grade C");
 } else if (percentage >= 60) {
@@ -110,5 +110,53 @@ if (percentage >= 90) {
 } else {
     alert("Fail");
 }
+
+// Question 7
+var sacretNo = +prompt("Enter Your Sacret No:");
+if (sacretNo === 6) {
+    alert("Bingo! Correct Answer");
+} else if (sacretNo === 7) {
+    alert("Close enough to the correct answer");
+} else {
+    alert("Try Again");
+}
+
+// Question 8
+var diviNo = +prompt("Enter Number: ");
+if (diviNo % 3 === 0) {
+    alert(diviNo + " is divisible by 3");
+} else {
+    alert(diviNo + " is not divisible by 3");
+}
+
+// Question 9 
+var checkNum = +prompt("Check Even No and Odd No:");
+if (checkNum % 2 === 0) {
+    alert("Its Even Number");
+} else {
+    alert("Its Odd Number");
+}
+
+// Question 10
+var temp = +prompt("Enter Temperature: ");
+if (temp > 40) {
+    alert("It is too hot outside");
+} else if (temp > 30) {
+    alert("The weather today is normal");
+} else if (temp > 20) {
+    alert("Today's weather is cool");
+} else if (temp > 10) {
+    alert("OMG! Today weather is so cool");
+}
+
+// Question 11 
+var firstNumber = +prompt("Enter First Number:");
+var secondNumber = +prompt("Enter Second Number:");
+var add = firstNumber + secondNumber;
+var minus = firstNumber - secondNumber;
+var mul = firstNumber * secondNumber;
+var div = firstNumber / secondNumber;
+var mod = firstNumber % secondNumber;
+alert("Add: " + add + "\n" + "Minus: " + minus + "\n" + "Multiply: " + mul + "\n" + "Divide: " + div + "\n" + "Modulus: " + mod);
 
 
