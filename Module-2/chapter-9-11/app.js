@@ -115,7 +115,7 @@ if (percentage >= 90) {
 var sacretNo = +prompt("Enter Your Sacret No:");
 if (sacretNo === 6) {
     alert("Bingo! Correct Answer");
-} else if (sacretNo === 7) {
+} else if (sacretNo === 6 + 1 || sacretNo === 6 - 1) {
     alert("Close enough to the correct answer");
 } else {
     alert("Try Again");
